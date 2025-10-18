@@ -1,0 +1,10 @@
+public class case4 {
+    public static void main(String[] args) {
+        for (int rows = 1; rows <= 8; rows++) {
+            for (int cols = rows; cols <= 8; cols++) {
+                System.out.print(cols + " ");
+            }
+            System.out.println();
+        }
+    }
+}
