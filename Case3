@@ -1,0 +1,10 @@
+public class case3 {
+    public static void main(String[] args) { 
+        for (int rows = 1; rows <=3; rows++) {
+            for (int row = 1; row <=3; row++) { 
+            System.out.println(rows + " x " + row + " = " + (rows * row));
+            }
+            System.out.println();
+        }
+    }
+}
